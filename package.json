@@ -1,0 +1,18 @@
+{
+  "name": "nlw6-valoriza",
+  "version": "1.0.0",
+  "description": "An API to promote recognition between team partners, built with Node.js during Next Level Week 6 from Rocketseat.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raymw1/valoriza.git"
+  },
+  "keywords": [],
+  "author": "Rayan Wilbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raymw1/valoriza/issues"
+  },
+  "homepage": "https://github.com/Raymw1/valoriza#readme",
+}
