@@ -10,6 +10,9 @@ class User {
   name: string;
 
   @Column()
+  email: string;
+
+  @Column()
   admin: boolean;
 
   @CreateDateColumn()
