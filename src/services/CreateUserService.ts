@@ -10,7 +10,7 @@ interface IUserRequest {
 }
 
 class CreateUserService {
-  async execute({ name, email, password, admin }: IUserRequest) {
+  async execute({ name, email, password, admin = false }: IUserRequest) {
     const usersRepository = getCustomRepository(UsersRepository);
     if (!email) throw new Error('Email is required!');
     if (!password) throw new Error('Password is required!');
